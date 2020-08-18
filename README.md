@@ -13,7 +13,7 @@ F2图表具体使用方法请参考: https://github.com/antvis/f2
 ## 安装
 
 ```
-$ yarn add taro-antv-f2
+$ yarn add taro-antv-f2 @antv/f2
 ```
 
 ## 使用指南

@@ -10,11 +10,14 @@
     "f2"
   ],
   "main": "dist/index.js",
-  "homepage": "https://github.com/xioxin/taro-f2",
+  "homepage": "https://github.com/wuyf123/taro-antv-f2",
   "repository": {
 		"type": "git",
-		"url": "git://github.com/xioxin/taro-f2.git"
-	},
+		"url": "https://github.com/wuyf123/taro-antv-f2"
+  },
+  "files": [
+		"dist"
+	],
   "templateInfo": {
     "name": "default",
     "typescript": false,
@@ -46,6 +49,16 @@
     "ios >= 8"
   ],
   "dependencies": {
+  },
+  "peerDependencies": {
+    "@tarojs/taro": ">=3.0.5",
+    "@tarojs/react": ">=3.0.5",
+    "@tarojs/components": ">=3.0.5",
+    "@tarojs/runtime": ">=3.0.5",
+    "react": ">=16.10.0",
+    "react-dom": ">=16.10.0"
+  },
+  "devDependencies": {
     "@antv/f2": "^3.7.3",
     "@babel/runtime": "^7.7.7",
     "@tarojs/components": "3.0.7",
@@ -53,9 +66,7 @@
     "@tarojs/runtime": "3.0.7",
     "@tarojs/taro": "3.0.7",
     "react": "^16.10.0",
-    "react-dom": "^16.10.0"
-  },
-  "devDependencies": {
+    "react-dom": "^16.10.0",
     "@babel/core": "^7.8.0",
     "@tarojs/mini-runner": "3.0.7",
     "@tarojs/webpack-runner": "3.0.7",
