@@ -31,7 +31,7 @@ import { F2Canvas } from 'taro-antv-f2'
 import Taro from '@tarojs/taro'
 import React, { Component } from 'react'
 import { View } from '@tarojs/components'
-import F2Canvas from '@components/f2-canvas'
+import { F2Canvas } from '@components/f2-canvas'
 import './index.scss'
 
 export default class Line extends Component {
